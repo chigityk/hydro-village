@@ -91,6 +91,7 @@ fanbtn = tk.Button(main,
                 activebackground='#02394A',
                 command=switch,
                 border=0,
+                borderwidth=0,
                 height=100,
                 width=100)
 fanbtn.grid(row=8, column=0, rowspan=6, columnspan=6)
