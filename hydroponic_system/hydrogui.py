@@ -46,7 +46,9 @@ img_h2oon = PhotoImage(file='assets/h2oon.png')
 img_settings = PhotoImage(file='assets/settings.png')
 
 #global is_on function
-is_on = False
+o2On = True
+h2oOn = True
+fanOn = True
 
 main.style = ttk.Style(main)
 main.style.configure('TButton',
@@ -105,23 +107,22 @@ lightsbtn.grid(row=1, column=9, rowspan=5, columnspan=5, padx=5, pady=5)
 
 #fan on/off button
 # Define our switch function
-def switch():
-    global is_on
-      
+def fanSwitch():
+    global fanOn 
     # Determine is on or off
-    if is_on:
+    if fanOn:
         fanbtn.config(image = img_fanoff)
-        is_on = False
+        fanOn = False
     else:
         fanbtn.config(image = img_fanon)
-        is_on = True
+        fanOn = True
   
 
 fanbtn = tk.Button(main,
                 image=img_fanon,
                 bg='#02394A',
                 activebackground='#02394A',
-                command=switch,
+                command=fanSwitch,
                 border=0,
                 highlightthickness=0,
                 borderwidth=0,
@@ -132,23 +133,23 @@ fanbtn.grid(row=8, column=0, rowspan=6, columnspan=6)
 #o2 pump on/off switch
 
 # Define our switch function
-def switch():
-    global is_on
+def o2Switch():
+    global o2On
       
     # Determine is on or off
-    if is_on:
+    if o2On:
         o2btn.config(image = img_o2off)
-        is_on = False
+        o2On = False
     else:
         o2btn.config(image = img_o2on)
-        is_on = True
+        o2On = True
   
 
 o2btn = tk.Button(main,
                 image=img_o2on,
                 bg='#02394A',
                 activebackground='#02394A',
-                command=switch,
+                command=o2Switch,
                 border=0,
                 highlightthickness=0,
                 height=100,
@@ -158,23 +159,23 @@ o2btn.grid(row=8, column=4, rowspan=6, columnspan=6)
 #water pump on/off switch
 
 # Define our switch function
-def switch():
-    global is_on
+def h2oSwitch():
+    global h2oOn
       
     # Determine is on or off
-    if is_on:
+    if h2oOn:
         h2obtn.config(image = img_h2ooff)
-        is_on = False
+        h2oOn = False
     else:
         h2obtn.config(image = img_h2oon)
-        is_on = True
+        h2oOn = True
   
 
 h2obtn = tk.Button(main,
                 image=img_h2oon,
                 bg='#02394A',
                 activebackground='#02394A',
-                command=switch,
+                command=h2oSwitch,
                 border=0,
                 highlightthickness=0,
                 height=100,
