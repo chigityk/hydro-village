@@ -7,13 +7,13 @@ main = tk.Tk()
 main.title('Lettuce Wall')
 main.configure(background='#02394A', width=700, height=700)
 
-img_fanoff = PhotoImage(file='assets/fanoff.png')
-img_fanon = PhotoImage(file='assets/fanon.png')
-img_o2off = PhotoImage(file='assets/o2off.png')
-img_o2on = PhotoImage(file='assets/o2on.png')
-img_h2ooff = PhotoImage(file='assets/h2ooff.png')
-img_h2oon = PhotoImage(file='assets/h2oon.png')
-img_settings = PhotoImage(file='assets/settings.png')
+img_fanoff = PhotoImage(file='hydroponic_system/assets/fanoff.png')
+img_fanon = PhotoImage(file='hydroponic_system/assets/fanon.png')
+img_o2off = PhotoImage(file='hydroponic_system/assets/o2off.png')
+img_o2on = PhotoImage(file='hydroponic_system/assets/o2on.png')
+img_h2ooff = PhotoImage(file='hydroponic_system/assets/h2ooff.png')
+img_h2oon = PhotoImage(file='hydroponic_system/assets/h2oon.png')
+img_settings = PhotoImage(file='hydroponic_system/assets/settings.png')
 
 #global is_on function
 is_on = False
