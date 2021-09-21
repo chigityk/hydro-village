@@ -74,11 +74,11 @@ homelbl.grid(row=0, column=0)
 homelbl.configure(background='#02394A', font='notosansbold', foreground='white')
 
 timelbl = ttk.Label(main, text=timeString)
-timelbl.grid(row=0, column=5, columnspan=5)
+timelbl.grid(row=0, column=1)
 timelbl.configure(background='#02394A', font='notosansbold', foreground='white')
 
 templbl = ttk.Label(main, text='Local Temp')
-templbl.grid(row=0, column=10, columnspan=5, sticky='e')
+templbl.grid(row=0, column=2)
 templbl.configure(background='#02394A', font='notosansbold', foreground='white')
 
 # Nutrients Button, clicks into sub-menu
@@ -87,11 +87,9 @@ nutebtn = tk.Button(main,
                         bg='#02394A',
                         activebackground='lightblue',
                         fg='white',
-                        height=3,
-                        width=11,
                         font=('notosansbold', 15),
                         command=nutewindow)
-nutebtn.grid(row=1, column=2, rowspan=5, columnspan=5, padx=5, pady=5)
+nutebtn.grid(row=1, column=0)
 
 # Lights Button, clicks into sub-menu
 lightsbtn = tk.Button(main,
@@ -99,11 +97,9 @@ lightsbtn = tk.Button(main,
                         bg='#02394A',
                         activebackground='lightblue',
                         fg='white',
-                        height=3,
-                        width=11,
                         font=('notosansbold', 15),
                         command=lightswindow)
-lightsbtn.grid(row=1, column=9, rowspan=5, columnspan=5, padx=5, pady=5)
+lightsbtn.grid(row=1, column=2)
 
 #fan on/off button
 # Define our switch function
@@ -128,7 +124,7 @@ fanbtn = tk.Button(main,
                 borderwidth=0,
                 height=100,
                 width=100)
-fanbtn.grid(row=8, column=0, rowspan=6, columnspan=6)
+fanbtn.grid(row=2, column=0)
 
 #o2 pump on/off switch
 
@@ -154,7 +150,7 @@ o2btn = tk.Button(main,
                 highlightthickness=0,
                 height=100,
                 width=100)
-o2btn.grid(row=8, column=4, rowspan=6, columnspan=6)
+o2btn.grid(row=2, column=1)
 
 #water pump on/off switch
 
@@ -180,7 +176,7 @@ h2obtn = tk.Button(main,
                 highlightthickness=0,
                 height=100,
                 width=100)
-h2obtn.grid(row=8, column=9, rowspan=6, columnspan=6)
+h2obtn.grid(row=2, column=2)
 
 
 #settings button
@@ -195,7 +191,7 @@ settingsButton = tk.Button(main,
                            activebackground='#02394A',
                            command=settingswindow
                            )
-settingsButton.grid(row=14, column=15, rowspan=2, columnspan=3)
+settingsButton.grid(row=3, column=2)
 
 
 main.mainloop()
