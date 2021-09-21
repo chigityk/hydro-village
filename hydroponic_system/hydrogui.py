@@ -6,7 +6,7 @@ timeString = time.strftime('%I:%M %p')
 main = tk.Tk()
 main.title('Lettuce Wall')
 main.configure(background='#02394A', width=700, height=700)
-
+#test
 img_fanoff = PhotoImage(file='hydroponic_system/assets/fanoff.png')
 img_fanon = PhotoImage(file='hydroponic_system/assets/fanon.png')
 img_o2off = PhotoImage(file='hydroponic_system/assets/o2off.png')
