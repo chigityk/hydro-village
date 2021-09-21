@@ -91,6 +91,7 @@ fanbtn = tk.Button(main,
                 activebackground='#02394A',
                 command=switch,
                 border=0,
+                highlightthickness=0,
                 borderwidth=0,
                 height=100,
                 width=100)
@@ -117,6 +118,7 @@ o2btn = tk.Button(main,
                 activebackground='#02394A',
                 command=switch,
                 border=0,
+                highlightthickness=0,
                 height=100,
                 width=100)
 o2btn.grid(row=8, column=4, rowspan=6, columnspan=6)
@@ -142,6 +144,7 @@ h2obtn = tk.Button(main,
                 activebackground='#02394A',
                 command=switch,
                 border=0,
+                highlightthickness=0,
                 height=100,
                 width=100)
 h2obtn.grid(row=8, column=9, rowspan=6, columnspan=6)
@@ -155,6 +158,7 @@ settingsButton = tk.Button(main,
                            height=70,
                            width=70,
                            border=0,
+                           highlightthickness=0,
                            activebackground='#02394A'
                            )
 settingsButton.grid(row=14, column=15, rowspan=2, columnspan=3)
