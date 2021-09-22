@@ -32,10 +32,10 @@
          style="stop-color:#ffffff;stop-opacity:1" />
     </linearGradient>
     <linearGradient
-       gradientTransform="translate(-4.535711,-6.8035737)"
+       gradientTransform="translate(-0.7559491,-9.0714308)"
        gradientUnits="userSpaceOnUse"
-       y2="197.97025"
-       x2="144.3869"
+       y2="106.50001"
+       x2="105.07738"
        y1="159.41667"
        x1="104.57738"
        id="linearGradient854"
@@ -50,8 +50,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-111.42857"
-     inkscape:cy="560"
+     inkscape:cx="128.57143"
+     inkscape:cy="477.14286"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -69,7 +69,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -87,7 +87,7 @@
            height="71.428574"
            x="451.42856"
            y="911.09113" /></flowRegion><flowPara
-         id="flowPara859"></flowPara></flowRoot>    <flowRoot
+         id="flowPara859" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot853-1"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:1px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -99,55 +99,51 @@
            x="451.42856"
            y="911.09113" /></flowRegion><flowPara
          id="flowPara859-8" /></flowRoot>    <g
-       id="g3453">
+       id="g2608"
+       inkscape:export-xdpi="31.3074"
+       inkscape:export-ydpi="31.3074">
+      <rect
+         ry="12.8"
+         y="108.76785"
+         x="63.5"
+         height="80.130951"
+         width="80.130951"
+         id="rect815-9"
+         style="opacity:1;fill:url(#linearGradient854);fill-opacity:1;fill-rule:evenodd;stroke:#8e8e8e;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         ry="4.1577382"
+         y="169.24406"
+         x="76.729164"
+         height="8.3154764"
+         width="53.672619"
+         id="rect961-0"
+         style="opacity:1;fill:#ffc40a;fill-opacity:1;fill-rule:evenodd;stroke:#8e8e8e;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         inkscape:export-ydpi="31.307407"
-         inkscape:export-xdpi="31.307407"
-         transform="translate(3.7797619,-2.2678571)"
-         id="g3443">
-        <rect
-           style="opacity:1;fill:url(#linearGradient854);fill-opacity:1;fill-rule:evenodd;stroke:#8e8e8e;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="rect815-9"
-           width="80.130951"
-           height="80.130951"
-           x="59.720238"
-           y="111.03571"
-           ry="12.8" />
-        <rect
-           style="opacity:1;fill:#ffc40a;fill-opacity:1;fill-rule:evenodd;stroke:#8e8e8e;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="rect961-0"
-           width="53.672619"
-           height="8.3154764"
-           x="72.949402"
-           y="171.51192"
-           ry="4.1577382" />
-        <g
-           id="g869-9"
-           transform="matrix(1.0151174,0,0,1.0151174,-41.773488,-115.97399)"
-           style="fill:#ffffff;fill-opacity:1">
-          <text
-             id="text851-2"
-             y="270.29648"
+         style="fill:#ffffff;fill-opacity:1"
+         transform="matrix(1.0151174,0,0,1.0151174,-37.993726,-118.24185)"
+         id="g869-9">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.16702271px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.92916328px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.92916328px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="124.68658"
+           y="270.29648"
+           id="text851-2"><tspan
+             sodipodi:role="line"
+             id="tspan849-0"
              x="124.68658"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.16702271px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.92916328px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.92916328px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.16702271px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.92916328px"
-               y="270.29648"
-               x="124.68658"
-               id="tspan849-0"
-               sodipodi:role="line">O</tspan></text>
-          <text
-             id="text863-0"
-             y="249.375"
+             y="270.29648"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.16702271px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.92916328px">O</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;letter-spacing:0.26458332px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="152.70239"
+           y="249.375"
+           id="text863-0"><tspan
+             sodipodi:role="line"
+             id="tspan861-8"
              x="152.70239"
-             style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;letter-spacing:0.26458332px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
-               y="249.375"
-               x="152.70239"
-               id="tspan861-8"
-               sodipodi:role="line">2</tspan></text>
-        </g>
+             y="249.375"
+             style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">2</tspan></text>
       </g>
     </g>
   </g>

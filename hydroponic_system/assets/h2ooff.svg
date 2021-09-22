@@ -34,8 +34,8 @@
     <linearGradient
        gradientTransform="translate(-0.7559491,-9.0714308)"
        gradientUnits="userSpaceOnUse"
-       y2="197.97025"
-       x2="144.3869"
+       y2="202.50597"
+       x2="105.07738"
        y1="159.41667"
        x1="104.57738"
        id="linearGradient854"
@@ -70,7 +70,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
+     inkscape:zoom="0.7"
      inkscape:cx="312.8355"
      inkscape:cy="519.5939"
      inkscape:document-units="mm"
@@ -90,7 +90,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -108,7 +108,7 @@
            height="71.428574"
            x="451.42856"
            y="911.09113" /></flowRegion><flowPara
-         id="flowPara859"></flowPara></flowRoot>    <flowRoot
+         id="flowPara859" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot853-1"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:1px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -120,9 +120,9 @@
            x="451.42856"
            y="911.09113" /></flowRegion><flowPara
          id="flowPara859-8" /></flowRoot>    <g
-       id="g3573"
-       inkscape:export-xdpi="31.307407"
-       inkscape:export-ydpi="31.307407">
+       id="g858"
+       inkscape:export-xdpi="31.3074"
+       inkscape:export-ydpi="31.3074">
       <rect
          ry="12.8"
          y="108.76785"

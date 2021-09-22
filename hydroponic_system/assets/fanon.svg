@@ -16,7 +16,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="fanon.svg">
+   sodipodi:docname="fanon.svg"
+   inkscape:export-filename="C:\Users\Chris\Desktop\Coding\hydro-village\hydroponic_system\assets\fanon.png"
+   inkscape:export-xdpi="31.307411"
+   inkscape:export-ydpi="31.307411">
   <defs
      id="defs2">
     <linearGradient
@@ -67,11 +70,21 @@
        xlink:href="#linearGradient2778"
        id="linearGradient2794"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-8.3154762,-10.583333)"
-       x1="104.57738"
-       y1="159.41667"
-       x2="144.3869"
-       y2="197.97025" />
+       gradientTransform="translate(-14.363095,-18.142857)"
+       x1="105.37919"
+       y1="144.18231"
+       x2="105.09828"
+       y2="117.52212" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2778"
+       id="linearGradient1464"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-14.363095,-18.142857)"
+       x1="104.84465"
+       y1="159.1494"
+       x2="105.63282"
+       y2="109.50403" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -80,9 +93,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="94.285716"
-     inkscape:cy="420"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="238.44615"
+     inkscape:cy="579.6041"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -109,29 +122,26 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g2792"
-       transform="translate(-6.047619,-7.5595238)"
-       inkscape:export-xdpi="31.307411"
-       inkscape:export-ydpi="31.307411">
+       id="g1490">
       <rect
          ry="12.8"
-         y="107.25595"
-         x="55.940475"
+         y="99.696426"
+         x="49.892857"
          height="80.130951"
          width="80.130951"
          id="rect815"
-         style="opacity:1;fill:url(#linearGradient2794);fill-opacity:1;fill-rule:evenodd;stroke:#8e8e8e;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:url(#linearGradient1464);fill-opacity:1;fill-rule:evenodd;stroke:#8e8e8e;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
          ry="4.1577382"
-         y="167.73216"
-         x="69.16964"
+         y="160.17264"
+         x="63.122021"
          height="8.3154764"
          width="53.672619"
          id="rect961"
          style="opacity:1;fill:#ffc40a;fill-opacity:1;fill-rule:evenodd;stroke:#8e8e8e;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
          style="fill:#ffffff;fill-opacity:1"
-         transform="matrix(0.115813,0,0,0.115813,96.005724,137.27128)"
+         transform="matrix(0.115813,0,0,0.115813,89.958105,129.71176)"
          id="g1025">
         <g
            style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none"
