@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import Button, Frame, Grid, Image, Label, PhotoImage, ttk, font
+from tkinter import Button, Frame, Grid, Image, Label, PhotoImage, Toplevel, ttk, font, Tk
 import time
 import os
 timeString = time.strftime('%I:%M %p')
@@ -25,6 +25,8 @@ o2On = True
 h2oOn = True
 fanOn = True
 
+#main app page design and set-up
+
 main.style = ttk.Style(main)
 main.style.configure('TButton',
     font=('notosansbold', 15),
@@ -43,6 +45,28 @@ main.style.configure('settings.TButton',
     foreground='white',
     background='#02394A')
 
+# Nutrients Page Set-up
+
+def nutewindow():
+    nutes = Tk()
+    nutes.title('Nutes Configure')
+    nutes.configure(width=500, height=500, background='#02394A')
+
+# Lights Page Set-up
+
+def lightswindow():
+    lights = Tk()
+    lights.title('Lights Configure')
+    lights.configure(width=500, height=500, background='#02394A')
+
+# Settings Page Set-up
+
+def settingswindow():
+    settings = Tk()
+    settings.title('Settings Configure')
+    settings.configure(width=500, height=500, background='#02394A')
+
+#Top Row Text Boxes
 
 homelbl = ttk.Label(main, text='Hydro Home', background='#02394A')
 homelbl.grid(row=0, column=0, columnspan=4)
@@ -64,7 +88,8 @@ nutebtn = tk.Button(main,
                         fg='white',
                         height=3,
                         width=12,
-                        font=('notosansbold', 15))
+                        font=('notosansbold', 15),
+                        command=nutewindow)
 nutebtn.grid(row=1, column=2, rowspan=2, columnspan=4, padx=5, pady=5)
 
 # Lights Button, clicks into sub-menu
@@ -75,7 +100,8 @@ lightsbtn = tk.Button(main,
                         fg='white',
                         height=3,
                         width=12,
-                        font=('notosansbold', 15))
+                        font=('notosansbold', 15),
+                        command=lightswindow)
 lightsbtn.grid(row=1, column=6, rowspan=2, columnspan=4, padx=5, pady=5)
 
 #fan on/off button
@@ -163,8 +189,8 @@ settingsButton = tk.Button(main,
                            height=70,
                            width=70,
                            border=0,
-                           activebackground='#02394A'
-                           )
+                           activebackground='#02394A',
+                           command=settingswindow)
 settingsButton.grid(row=9, column=9)
 
 
