@@ -3,7 +3,6 @@ from tkinter import Button, Frame, Grid, Image, Label, PhotoImage, Scale, Text, 
 import time
 import os
 import sys
-import app
 from tkinter.constants import S
 timeString = time.strftime('%a %b %d %I:%M %p')
 
