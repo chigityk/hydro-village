@@ -1,10 +1,10 @@
 from gpiozero import LED, Button
 from time import sleep
+import hydrogui
 
-led = LED(17)
-button = Button(2)
-
-while True:
-    button.wait_for_press()
-    led.toggle()
-    sleep(0.5)
+def h20On():
+    print('Switch Pressed')
+    if GPIO.input (40) :
+        GPIO.output (40,GPIO.LOW)
+    else:  
+        GPIO.output(40, GPIO.HIGH)
