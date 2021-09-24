@@ -1,10 +1,7 @@
-from gpiozero import LED, Button
-from time import sleep
+from tkinter import *
 import hydrogui
 
-def h20On():
-    print('Switch Pressed')
-    if GPIO.input (40) :
-        GPIO.output (40,GPIO.LOW)
-    else:  
-        GPIO.output(40, GPIO.HIGH)
+def fanon_txt(fanon):
+    if fanon(True):
+        print('fan is on')
+

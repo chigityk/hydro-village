@@ -2,11 +2,10 @@ import tkinter as tk
 from tkinter import Button, Frame, Grid, Image, Label, PhotoImage, Scale, Text, Toplevel, ttk, font, Tk
 import time
 import os
+import sys
+import app
 from tkinter.constants import S
 timeString = time.strftime('%a %b %d %I:%M %p')
-
-## Force Directory (Added Because My Computer Was Acting Very Odd) ##
-os.chdir('hydroponic_system')
 
 ## Root Setup ##
 main = tk.Tk()
@@ -157,9 +156,11 @@ def fanSwitch():
     # Determine is on or off
     if fanOn:
         fanbtn.config(image = img_fanoff)
+        print('the fan is off')
         fanOn = False
     else:
         fanbtn.config(image = img_fanon)
+        print('the fan is on')
         fanOn = True
   
 
