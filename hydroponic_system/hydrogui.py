@@ -1,3 +1,4 @@
+import serial
 import tkinter as tk
 from tkinter import Button, Frame, Grid, Image, Label, PhotoImage, Scale, Text, Toplevel, ttk, font, Tk
 import time
@@ -6,12 +7,18 @@ import sys
 from tkinter.constants import S
 timeString = time.strftime('%a %b %d %I:%M %p')
 
+# Serial Port ##
+ser = serial.Serial('/dev/ttyACM0', 9600)
+print("Reset Arduino")
+time.sleep(2)
+ser.write(bytes('L', 'UTF-8'))
+
+
 ## Root Setup ##
 main = tk.Tk()
 main.title('Hydro System')
 main.configure(background='#02394A')
 main.geometry('{}x{}'.format(800, 400))
-
 
 ## Add Images ##
 img_fanoff = PhotoImage(file='assets/fanoff.png')
@@ -205,9 +212,11 @@ def h2oSwitch():
     # Determine is on or off
     if h2oOn:
         h2obtn.config(image = img_h2ooff)
+        ser.write(bytes('H', 'UTF-8'))
         h2oOn = False
     else:
         h2obtn.config(image = img_h2oon)
+        ser.write(bytes('L', 'UTF-8'))
         h2oOn = True
   
 h2obtn = tk.Button(btm_frame,
