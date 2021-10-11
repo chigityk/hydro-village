@@ -21,12 +21,12 @@ main.configure(background='#02394A')
 main.geometry('{}x{}'.format(800, 400))
 
 ## Add Images ##
-img_fanoff = PhotoImage(file='assets/fanoff.png')
-img_fanon = PhotoImage(file='assets/fanon.png')
-img_o2off = PhotoImage(file='assets/o2off.png')
-img_o2on = PhotoImage(file='assets/o2on.png')
-img_h2ooff = PhotoImage(file='assets/h2ooff.png')
-img_h2oon = PhotoImage(file='assets/h2oon.png')
+img_fanoff = PhotoImage(file='assets/fanon.png')
+img_fanon = PhotoImage(file='assets/fanoff.png')
+img_o2off = PhotoImage(file='assets/o2on.png')
+img_o2on = PhotoImage(file='assets/o2off.png')
+img_h2ooff = PhotoImage(file='assets/h2oon.png')
+img_h2oon = PhotoImage(file='assets/h2ooff.png')
 img_settings = PhotoImage(file='assets/settings.png')
 img_addphup = PhotoImage(file='assets/addphup.png')
 img_addphdown = PhotoImage(file='assets/addphdown.png')
@@ -162,10 +162,12 @@ def fanSwitch():
     # Determine is on or off
     if fanOn:
         fanbtn.config(image = img_fanoff)
+        ser.write(bytes('C', 'UTF-8'))
         print('the fan is off')
         fanOn = False
     else:
         fanbtn.config(image = img_fanon)
+        ser.write(bytes('D', 'UTF-8'))
         print('the fan is on')
         fanOn = True
   
@@ -188,9 +190,11 @@ def o2Switch():
     # Determine is on or off
     if o2On:
         o2btn.config(image = img_o2off)
+        ser.write(bytes('A', 'UTF-8'))
         o2On = False
     else:
         o2btn.config(image = img_o2on)
+        ser.write(bytes('B', 'UTF-8'))
         o2On = True
   
 
@@ -207,7 +211,7 @@ o2btn = tk.Button(btm_frame,
 #water pump on/off switch
 # Define our switch function
 def h2oSwitch():
-    global h2oOn
+    global h2oOn 
       
     # Determine is on or off
     if h2oOn:
