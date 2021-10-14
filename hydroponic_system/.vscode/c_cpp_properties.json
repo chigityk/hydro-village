@@ -17,6 +17,9 @@
             "includePath": [
                 "/home/chris/arduino-1.8.16/hardware/arduino/avr/cores/arduino",
                 "/home/chris/arduino-1.8.16/hardware/arduino/avr/variants/mega",
+                "/home/chris/Arduino/libraries/TouchScreen",
+                "/home/chris/Arduino/libraries/Elegoo_TFTLCD",
+                "/home/chris/Arduino/libraries/Elegoo_GFX",
                 "/home/chris/arduino-1.8.16/hardware/tools/avr/lib/gcc/avr/7.3.0/include",
                 "/home/chris/arduino-1.8.16/hardware/tools/avr/lib/gcc/avr/7.3.0/include-fixed",
                 "/home/chris/arduino-1.8.16/hardware/tools/avr/avr/include"
